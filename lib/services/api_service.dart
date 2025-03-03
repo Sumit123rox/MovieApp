@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 import '../models/movie.dart';
 
 class APIService {
-  static const String _apiKey = '657a4c9fbea18b2d1f5775ec517285b5';
+  static const String _apiKey = 'your_api_key';
   static const String _baseUrl = 'https://api.themoviedb.org/3';
 
   Future<List<Movie>> fetchMovies() async {
